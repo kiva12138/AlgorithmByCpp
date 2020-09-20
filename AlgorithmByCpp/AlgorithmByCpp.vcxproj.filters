@@ -38,6 +38,12 @@
     <ClCompile Include="Utils.cpp">
       <Filter>Resource Files\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="1SumOfTwo.cpp">
+      <Filter>Resource Files\LintCode_Hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="2SumOfList.cpp">
+      <Filter>Resource Files\LintCode_Hot100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">

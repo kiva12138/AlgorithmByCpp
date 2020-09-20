@@ -20,3 +20,23 @@ void testPrintVector() {
 	printVector(c);
 }
 
+void printList(ListNode* target) {
+	ListNode* temp = target;
+	while (temp != NULL) {
+		cout << (temp->val);
+		temp = temp->next;
+		cout << ", ";
+	}
+	cout << "\n";
+}
+
+ListNode* constructFromVector(vector<int>& nums)
+{
+	ListNode head(0);
+	ListNode* pHead = &head;
+	for (int i = 0; i < (int)nums.size(); i++) {
+		pHead->next = new ListNode(nums[i]);
+		pHead = pHead->next;
+	}
+	return head.next;
+}

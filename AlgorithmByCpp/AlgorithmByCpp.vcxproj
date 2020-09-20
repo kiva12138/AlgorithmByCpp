@@ -142,6 +142,8 @@
     <None Include="before.cpp.backup" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1SumOfTwo.cpp" />
+    <ClCompile Include="2SumOfList.cpp" />
     <ClCompile Include="LintCode_Test.cpp" />
     <ClCompile Include="RunTest.cpp" />
     <ClCompile Include="Utils.cpp" />
