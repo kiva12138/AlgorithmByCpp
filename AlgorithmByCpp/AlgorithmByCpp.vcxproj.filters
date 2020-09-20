@@ -19,6 +19,9 @@
     <Filter Include="Resource Files\LintCode_Hot100">
       <UniqueIdentifier>{3af578b5-1d7d-49b3-a448-036dad4999bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Utils">
+      <UniqueIdentifier>{e0d50d80-7de4-48a1-917c-9abacc5a24f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="before.cpp.backup">
@@ -33,7 +36,12 @@
       <Filter>Resource Files\LintCode_Hot100</Filter>
     </ClCompile>
     <ClCompile Include="Utils.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Utils</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
