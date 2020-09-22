@@ -44,6 +44,9 @@
     <ClCompile Include="2SumOfList.cpp">
       <Filter>Resource Files\LintCode_Hot100</Filter>
     </ClCompile>
+    <ClCompile Include="3LongestUniqueSubString.cpp">
+      <Filter>Resource Files\LintCode_Hot100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">

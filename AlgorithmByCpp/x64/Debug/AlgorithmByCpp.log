@@ -1,4 +1,8 @@
-﻿  2SumOfList.cpp
+﻿  1SumOfTwo.cpp
+  2SumOfList.cpp
+  3LongestUniqueSubString.cpp
+  LintCode_Test.cpp
   RunTest.cpp
+  Utils.cpp
   Generating Code...
   AlgorithmByCpp.vcxproj -> C:\VSRepos\AlgorithmByCpp\x64\Debug\AlgorithmByCpp.exe
