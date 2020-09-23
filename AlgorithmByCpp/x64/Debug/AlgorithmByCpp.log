@@ -3,6 +3,7 @@
   3LongestUniqueSubString.cpp
   isomorphic-strings.cpp
   LintCode_Test.cpp
+  repeated-dna-sequences.cpp
   RunTest.cpp
   Utils.cpp
   Generating Code...
