@@ -1,6 +1,7 @@
 ﻿  1SumOfTwo.cpp
   2SumOfList.cpp
   3LongestUniqueSubString.cpp
+  isomorphic-strings.cpp
   LintCode_Test.cpp
   RunTest.cpp
   Utils.cpp

@@ -22,6 +22,9 @@
     <Filter Include="Resource Files\Utils">
       <UniqueIdentifier>{e0d50d80-7de4-48a1-917c-9abacc5a24f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LintCode">
+      <UniqueIdentifier>{e01ba001-ea10-4fa7-8133-33568a60f8df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="before.cpp.backup">
@@ -46,6 +49,9 @@
     </ClCompile>
     <ClCompile Include="3LongestUniqueSubString.cpp">
       <Filter>Resource Files\LintCode_Hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="isomorphic-strings.cpp">
+      <Filter>Resource Files\LintCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
