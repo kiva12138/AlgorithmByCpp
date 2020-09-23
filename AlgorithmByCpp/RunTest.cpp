@@ -7,5 +7,6 @@ int main() {
 	Solution s;
 	vector<string> result = s.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
 	printVector(result);
+	cout << "Hello world";
 	return 0;
 }
