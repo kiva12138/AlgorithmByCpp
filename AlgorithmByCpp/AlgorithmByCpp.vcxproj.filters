@@ -56,6 +56,24 @@
     <ClCompile Include="repeated-dna-sequences.cpp">
       <Filter>Resource Files\LintCode</Filter>
     </ClCompile>
+    <ClCompile Include="rotate-array.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse-bits.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="number-of-1-bits.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="word-frequency.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="house-robber-ii.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="contains-duplicate.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">
