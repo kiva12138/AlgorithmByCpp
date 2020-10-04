@@ -156,6 +156,7 @@
     <ClCompile Include="RunTest.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="word-frequency.cpp" />
+    <ClCompile Include="word-ladder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h" />
