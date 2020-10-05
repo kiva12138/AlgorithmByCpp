@@ -24,7 +24,7 @@ public:
         result[0] = 0;
         result[1] = nums[0];
         for (long i = 1; i < nums.size(); i++) {
-            result[i + 1] = max(result[i], result[i - 1] + nums[i]);
+            result[i + 1L] = max(result[i], result[i - 1L] + nums[i]);
         }
         return result[nums.size()];
     }
