@@ -23,8 +23,8 @@ public:
         result.resize(nums.size() + 1);
         result[0] = 0;
         result[1] = nums[0];
-        for (long i = 1; i < nums.size(); i++) {
-            result[i + 1L] = max(result[i], result[i - 1L] + nums[i]);
+        for (int i = 1; i < nums.size(); i++) {
+            result[i + 1] = max(result[i], result[i - 1] + nums[i]);
         }
         return result[nums.size()];
     }
