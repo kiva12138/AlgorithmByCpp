@@ -86,6 +86,9 @@
     <ClCompile Include="excel-sheet-column-title.cpp">
       <Filter>Resource Files\LintCode</Filter>
     </ClCompile>
+    <ClCompile Include="surrounded-regions.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">

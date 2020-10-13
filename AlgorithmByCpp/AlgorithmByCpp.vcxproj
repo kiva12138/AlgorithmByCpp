@@ -156,6 +156,7 @@
     <ClCompile Include="rotate-array.cpp" />
     <ClCompile Include="RunTest.cpp" />
     <ClCompile Include="sum-root-to-leaf-numbers.cpp" />
+    <ClCompile Include="surrounded-regions.cpp" />
     <ClCompile Include="two-sum-ii-input-array-is-sorted.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="word-frequency.cpp" />

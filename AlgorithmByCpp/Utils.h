@@ -3,10 +3,12 @@
 
 using namespace std;
 
-template<class T>
-
 // Print the vector by cout
+template<class T>
 void printVector(vector<T>&);
+
+template<class C>
+void print2DimVector(vector<C>&);
 
 // Test for printVector Function
 void testPrintVector();

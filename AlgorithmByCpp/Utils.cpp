@@ -2,13 +2,25 @@
 #include "Utils.h"
 
 template<class T>
-
 void printVector(vector<T>& target) {
 	int nSize = (int)target.size();
 	for (int i = 0; i < nSize; i++) {
 		cout << target.at(i) << ", ";
 	}
 	cout << "\n";
+}
+
+template<class C>
+void print2DimVector(vector<C>& target) {
+	int nSize = (int)target.size();
+	for (int i = 0; i < nSize; i++) {
+		int subSize = target.at(i).size();
+		for (int j = 0; j < subSize; j++) {
+			cout << target[i][j] << ", ";
+		}
+		cout << endl;
+	}
+	cout << endl;
 }
 
 void testPrintVector() {
