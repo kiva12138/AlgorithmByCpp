@@ -151,6 +151,7 @@
     <ClCompile Include="isomorphic-strings.cpp" />
     <ClCompile Include="LintCode_Test.cpp" />
     <ClCompile Include="number-of-1-bits.cpp" />
+    <ClCompile Include="palindrome-partitioning.cpp" />
     <ClCompile Include="repeated-dna-sequences.cpp" />
     <ClCompile Include="reverse-bits.cpp" />
     <ClCompile Include="rotate-array.cpp" />
