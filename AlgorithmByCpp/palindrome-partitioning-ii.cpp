@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<string>> result;
+    int result;
     vector<string> subResult;
 
     bool isPalindrome(string str) {
@@ -23,7 +23,9 @@ public:
     void subPartition(string& str, int start) {
         int len = str.size();
         if (start >= len) {
-            result.push_back(subResult);
+            if (subResult.size()-1 < result) {
+                result = subResult.size() - 1;
+            }
             return;
         }
         for (int i = start; i < len; i++) {
@@ -38,8 +40,8 @@ public:
         }
     }
 
-    vector<vector<string>> partition(string s) {
-        result.clear();
+    int minCut(string s) {
+        result = INT32_MAX;
         subResult.clear();
         subPartition(s, 0);
         return result;
@@ -47,9 +49,6 @@ public:
 
     void test() {
         string s = "aab";
-        vector<vector<string>> result = partition(s);
-        for (int i = 0; i < result.size(); i++) {
-            printVector(result.at(i));
-        }
+        cout << minCut(s);
     }
 };
