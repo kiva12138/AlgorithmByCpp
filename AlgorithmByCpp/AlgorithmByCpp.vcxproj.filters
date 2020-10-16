@@ -95,6 +95,12 @@
     <ClCompile Include="palindrome-partitioning-ii.cpp">
       <Filter>Resource Files\LintCode</Filter>
     </ClCompile>
+    <ClCompile Include="clone-graph.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">

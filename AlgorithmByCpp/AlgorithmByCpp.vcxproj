@@ -145,11 +145,13 @@
     <ClCompile Include="1SumOfTwo.cpp" />
     <ClCompile Include="2SumOfList.cpp" />
     <ClCompile Include="3LongestUniqueSubString.cpp" />
+    <ClCompile Include="clone-graph.cpp" />
     <ClCompile Include="contains-duplicate.cpp" />
     <ClCompile Include="excel-sheet-column-title.cpp" />
     <ClCompile Include="house-robber-ii.cpp" />
     <ClCompile Include="isomorphic-strings.cpp" />
     <ClCompile Include="LintCode_Test.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="number-of-1-bits.cpp" />
     <ClCompile Include="palindrome-partitioning-ii.cpp" />
     <ClCompile Include="palindrome-partitioning.cpp" />
