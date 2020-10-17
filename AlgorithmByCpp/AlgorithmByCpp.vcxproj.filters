@@ -101,6 +101,9 @@
     <ClCompile Include="Node.cpp">
       <Filter>Resource Files\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="gas-station.cpp">
+      <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils.h">

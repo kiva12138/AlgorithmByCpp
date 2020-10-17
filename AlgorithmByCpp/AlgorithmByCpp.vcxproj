@@ -148,6 +148,7 @@
     <ClCompile Include="clone-graph.cpp" />
     <ClCompile Include="contains-duplicate.cpp" />
     <ClCompile Include="excel-sheet-column-title.cpp" />
+    <ClCompile Include="gas-station.cpp" />
     <ClCompile Include="house-robber-ii.cpp" />
     <ClCompile Include="isomorphic-strings.cpp" />
     <ClCompile Include="LintCode_Test.cpp" />
