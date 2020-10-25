@@ -148,6 +148,7 @@
     <ClCompile Include="candy.cpp" />
     <ClCompile Include="clone-graph.cpp" />
     <ClCompile Include="contains-duplicate.cpp" />
+    <ClCompile Include="copy-list-with-random-pointer.cpp" />
     <ClCompile Include="excel-sheet-column-title.cpp" />
     <ClCompile Include="gas-station.cpp" />
     <ClCompile Include="house-robber-ii.cpp" />

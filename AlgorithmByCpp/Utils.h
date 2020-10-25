@@ -28,3 +28,17 @@ void testPrintVector();
      TreeNode* right;
      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  };
+
+// List Node With Random Value 
+ class RandomNode {
+ public:
+     int val;
+     RandomNode* next;
+     RandomNode* random;
+
+     RandomNode(int _val) {
+         val = _val;
+         next = NULL;
+         random = NULL;
+     }
+ };
