@@ -25,6 +25,9 @@
     <Filter Include="Resource Files\LintCode">
       <UniqueIdentifier>{e01ba001-ea10-4fa7-8133-33568a60f8df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\ICPCII">
+      <UniqueIdentifier>{adcc1522-3195-4bb5-84bf-8a63c108254b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="before.cpp.backup">
@@ -115,6 +118,18 @@
     </ClCompile>
     <ClCompile Include="copy-list-with-random-pointer.cpp">
       <Filter>Resource Files\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="problem1.cpp">
+      <Filter>Resource Files\ICPCII</Filter>
+    </ClCompile>
+    <ClCompile Include="problem2.cpp">
+      <Filter>Resource Files\ICPCII</Filter>
+    </ClCompile>
+    <ClCompile Include="problem3.cpp">
+      <Filter>Resource Files\ICPCII</Filter>
+    </ClCompile>
+    <ClCompile Include="problem8.cpp">
+      <Filter>Resource Files\ICPCII</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

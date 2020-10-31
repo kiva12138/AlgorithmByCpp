@@ -1,11 +1,9 @@
-#include <iostream>
-#include "copy-list-with-random-pointer.cpp"
 #include "Utils.h"
+#include <iostream>
 
 using namespace std;
 
 int main() {
-	Solution s;
-	s.test();
+	cout << "Hello" << endl;
 	return 0;
 }

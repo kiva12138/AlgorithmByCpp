@@ -158,6 +158,10 @@
     <ClCompile Include="number-of-1-bits.cpp" />
     <ClCompile Include="palindrome-partitioning-ii.cpp" />
     <ClCompile Include="palindrome-partitioning.cpp" />
+    <ClCompile Include="problem1.cpp" />
+    <ClCompile Include="problem2.cpp" />
+    <ClCompile Include="problem3.cpp" />
+    <ClCompile Include="problem8.cpp" />
     <ClCompile Include="repeated-dna-sequences.cpp" />
     <ClCompile Include="reverse-bits.cpp" />
     <ClCompile Include="rotate-array.cpp" />
